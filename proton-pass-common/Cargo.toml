@@ -30,7 +30,7 @@ url = "2.5.4"
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
-tokio = { version = "1.36", features = ["rt"]}
+tokio = { version = "1.43", features = ["rt"]}
 
 [[bench]]
 name = "card_detector"
